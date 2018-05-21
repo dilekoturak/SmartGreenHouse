@@ -1,0 +1,47 @@
+page-manage {
+  .btn{
+    background: grey;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
+  .btn-a {
+    background: green;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
+  .btn-d {
+    background: red;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
+  .txt{
+    font-family: "Segoe UI", "Noto Sans", sans-serif;
+    font-size: 20px;
+    color: #222222;
+  }
+  .card{
+    background: #e6e6e6;
+    box-shadow: #222222;
+  }
+}
