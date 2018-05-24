@@ -31,21 +31,23 @@
             <div class="col-md-4">
               <div class="txt" style="margin-top:10px;margin-left: 10px ">FAN</div>
             </div>
-            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-a btn-warning">Fan Açık </button>
+            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: green" name="checkmark-circle">Opened</ion-icon>
             </div>
-            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-d btn-warning">Fan Kapalı </button>
+            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: red" name="close-circle">Closed</ion-icon>
             </div>
           </div>
         </ion-card-header>
         <hr>
         <ion-card-content>
           <button type="submit" class="btn btn-warning" (click)="fanOpen()">
-            Open Fan
+            On
           </button>
           <button type="submit" class="btn btn-warning" (click)="fanClose()">
-            Close Fan
+            Off
           </button>
         </ion-card-content>
       </ion-card>
@@ -59,23 +61,25 @@
               <img src="assets/light.png" style="height: 40px;width: 40px">
             </div>
             <div class="col-md-4">
-              <div class="txt" style="margin-top:10px;margin-left: 10px ">IŞIK</div>
+              <div class="txt" style="margin-top:10px;margin-left: 10px ">LIGHT</div>
             </div>
-            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-a btn-warning">Fan Açık </button>
+            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: green" name="checkmark-circle">Opened</ion-icon>
             </div>
-            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-d btn-warning">Fan Kapalı </button>
+            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: red" name="close-circle">Closed</ion-icon>
             </div>
           </div>
         </ion-card-header>
         <hr>
         <ion-card-content>
           <button type="submit" class="btn btn-warning" (click)="isikOpen()">
-            Open Fan
+            On
           </button>
           <button type="submit" class="btn btn-warning" (click)="isikClose()">
-            Close Fan
+            Off
           </button>
         </ion-card-content>
       </ion-card>
@@ -89,23 +93,25 @@
               <img src="assets/heater.png" style="height: 40px;width: 40px">
             </div>
             <div class="col-md-4">
-              <div class="txt" style="margin-top:10px;margin-left: 10px ">ISITICI</div>
+              <div class="txt" style="margin-top:10px;margin-left: 10px ">HEATER</div>
             </div>
-            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-a btn-warning">Fan Açık </button>
+            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: green" name="checkmark-circle">Opened</ion-icon>
             </div>
-            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-d btn-warning">Fan Kapalı </button>
+            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: red" name="close-circle">Closed</ion-icon>
             </div>
           </div>
         </ion-card-header>
         <hr>
         <ion-card-content>
           <button type="submit" class="btn btn-warning" (click)="isiticiOpen()">
-            Open Fan
+            On
           </button>
           <button type="submit" class="btn btn-warning" (click)="isiticiClose()">
-            Close Fan
+            Off
           </button>
         </ion-card-content>
       </ion-card>
@@ -119,23 +125,25 @@
               <img src="assets/tray.png" style="height: 40px;width: 40px">
             </div>
             <div class="col-md-6">
-              <div class="txt" style="margin-top:10px;margin-left: 10px ">KAPAK</div>
+              <div class="txt" style="margin-top:10px;margin-left: 10px ">LIP</div>
             </div>
-            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-a btn-warning">Fan Açık </button>
+            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: green" name="checkmark-circle">Opened</ion-icon>
             </div>
-            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-d btn-warning">Fan Kapalı </button>
+            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: red" name="close-circle">Closed</ion-icon>
             </div>
           </div>
         </ion-card-header>
         <hr>
         <ion-card-content>
           <button type="submit" class="btn btn-warning" (click)="kapakOpen()">
-            Open Fan
+            On
           </button>
           <button type="submit" class="btn btn-warning" (click)="kapakClose()">
-            Close Fan
+            Off
           </button>
         </ion-card-content>
       </ion-card>
@@ -149,23 +157,25 @@
               <img src="assets/pump.png" style="height: 40px;width: 40px">
             </div>
             <div class="col-md-6">
-              <div class="txt" style="margin-top:10px;margin-left: 10px ">POMPA</div>
+              <div class="txt" style="margin-top:10px;margin-left: 10px ">WATERPUMP</div>
             </div>
-            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-a btn-warning">Fan Açık </button>
+            <div *ngIf="item.$value != '0' && item.$value != '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: green" name="checkmark-circle">Opened</ion-icon>
             </div>
-            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4" style="font-family: AppleGothic; font-weight: bold; color: #7F5336;">
-              <button class="btn btn-d btn-warning">Fan Kapalı </button>
+            <div *ngIf="item.$value == '0' || item.$value == '2'" class="col-md-4"
+                 style="font-family: AppleGothic; font-weight: bold;padding-top: 12px; padding-left: 20px">
+              <ion-icon style="color: red" name="close-circle">Closed</ion-icon>
             </div>
           </div>
         </ion-card-header>
         <hr>
         <ion-card-content>
           <button type="submit" class="btn btn-warning" (click)="pompaOpen()">
-            Open Fan
+            On
           </button>
           <button type="submit" class="btn btn-warning" (click)="pompaClose()">
-            Close Fan
+            Off
           </button>
         </ion-card-content>
       </ion-card>

@@ -6,24 +6,24 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  
+<ion-content padding class="home">
+
   <ion-list>
 
-  <ion-item>
-    <ion-label floating>Username</ion-label>
-    <ion-input type="text" #username></ion-input>
-  </ion-item>
+    <ion-item style="background: none">
+      <ion-label floating>Enter the e-mail</ion-label>
+      <ion-input type="text" #username></ion-input>
+    </ion-item>
 
-  <ion-item>
-    <ion-label floating>Password</ion-label>
-    <ion-input type="password" #password></ion-input>
-  </ion-item>
-  
-</ion-list>
+    <ion-item style="background: none">
+      <ion-label floating>Enter the password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
 
-<div padding>
-  <button block ion-button (click)="registerUser()" item-left>Register</button>
-</div>
+  </ion-list>
+
+  <div padding>
+    <button style="background: black; border-radius: 25px" block ion-button (click)="registerUser()" item-left>Register</button>
+  </div>
 
 </ion-content>

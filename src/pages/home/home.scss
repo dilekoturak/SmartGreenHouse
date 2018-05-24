@@ -1,9 +1,17 @@
 page-home {
-	#topButtons {
-		display: flex;
-		flex-direction: row;
-	}
-	#topButtons button {
-		flex: 1;
-	}
+  #topButtons {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  #topButtons button {
+    flex: 1;
+  }
+  .home{
+    background-image: url("../../assets/p.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
 }

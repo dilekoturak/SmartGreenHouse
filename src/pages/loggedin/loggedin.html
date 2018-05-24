@@ -12,12 +12,16 @@
 
 </ion-header>
 
-<ion-content>
-  <button (click)="realtime()" ion-button [color]="myColor" [round]="isRound">
-    Realtime
-  </button>
-  <button (click)="manage()" ion-button [color]="myColor" [round]="isRound">
-    Manage
-  </button>
+<ion-content class="home">
+
+  <div class="welcome"><span style="font-style: italic;">Welcome to SmartGreenHouse</span></div>
+  <div id="topButtons">
+    <button style="background: black;border-radius: 25px" (click)="realtime()" ion-button [color]="myColor" [round]="isRound">
+      See Realtime Data
+    </button>
+    <button style="background: black;border-radius: 25px" (click)="manage()" ion-button [color]="myColor" [round]="isRound">
+      Manage Greenhouse
+    </button>
+  </div>
 </ion-content>
 

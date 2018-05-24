@@ -1,3 +1,23 @@
 page-loggedin {
-
+  #topButtons {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  #topButtons button {
+    flex: 1;
+  }
+  .home{
+    background-image: url("../../assets/p.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+  }
+  .welcome{
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 35px;
+    color: black;
+  }
 }
