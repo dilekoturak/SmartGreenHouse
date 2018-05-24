@@ -1,6 +1,6 @@
 page-home {
   #topButtons {
-    margin-top: 200px;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -13,5 +13,12 @@ page-home {
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
+  }
+  .welcome{
+    padding-left: 70px;
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
   }
 }
