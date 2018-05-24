@@ -15,7 +15,8 @@ import {RealtimedataPage} from "../pages/realtimedata/realtimedata";
 import {ManagePage} from "../pages/manage/manage";
 import {AngularFireDatabaseModule} from "angularfire2/database";
 import { IonicStorageModule } from '@ionic/storage';
-
+import { FcmProvider } from '../providers/fcm/fcm';
+import {Push} from "@ionic-native/push";
 
 const firebaseAuth = {
   apiKey: "AIzaSyDLbC1zGwwORYSeXNpaszglqL-zw4byRcM",
@@ -59,7 +60,9 @@ const firebaseAuth = {
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    Storage
+    Storage,
+    FcmProvider,
+    Push
   ]
 })
 export class AppModule {}
